@@ -1,0 +1,21 @@
+{
+  "name": "tester",
+  "version": "1.0.0",
+  "description": "an example showing how to test with multiple repositories in a project",
+  "main": "test.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "puppeteer": "^1.20.0",
+    "shared": "../shared/"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
